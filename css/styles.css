@@ -1,0 +1,57 @@
+/* target main header only*/
+body > header{
+    position: sticky;
+    top: 0;
+    background-color: var(--pico-background-color);
+    box-shadow: 0, 0, 1rem, var(--pico-background-color);
+}
+
+section#hero{
+    min-height: 35rem;
+    background-color: var(--pico-primary);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1px;
+    margin-bottom: 5rem;
+
+}
+
+section#hero h1{
+    font-size: 5rem;
+    color: white;
+    
+}
+
+section#likes div{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 0;
+}
+
+section#likes article{
+    flex: 1;
+    min-width: 15rem;
+}
+
+article img {
+    width: 100%;
+}
+
+
+
+/* DEMOS ===================================== */
+
+section.demo div{
+    display: flex;
+    gap: 1rem;
+    background-color: var(--pico-primary);
+    padding: 1rem;
+}
+
+section.demo div p{
+    font-size: 5rem;
+    background-color: hotpink;
+    padding: 1rem;
+}
